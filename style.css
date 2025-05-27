@@ -317,13 +317,14 @@ img {
 
 .home__subtitle {
   font-size: var(--h3-font-size);
-  color: var(--text-color);
+  color: black;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
 
 .home__description {
   margin-bottom: var(--mb-2);
+  color: black;
 }
 
 .home__scroll {
@@ -387,6 +388,7 @@ img {
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
+  color:black;
 }
 
 .button--small {
@@ -421,6 +423,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
+  color: black;
 }
 
 .about__info-title {
@@ -994,4 +997,15 @@ img {
   color: var(--text-color-light);
   font-size: 0.9rem;
   line-height: 1.5;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
